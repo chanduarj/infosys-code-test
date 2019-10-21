@@ -1,0 +1,125 @@
+* {
+  font-family: sans-serif;
+
+}
+h1 {
+  color: #53a5e6;
+  padding: 30px 0;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.flex-container {
+  display: inline-block;
+  font-size: 10px;
+  /* flex-wrap: wrap;
+  justify-content: left;
+  align-items: center; */
+
+}
+.emp-label{
+  text-align: center;
+  background-color: #53a5e6;
+  color: #fff;
+  padding: 10px 0;
+  margin: 0;
+}
+.flex-container > * {
+  width: 300px;
+  /* margin: 10px 20px; */
+  min-height: 150px;
+}
+.emp-list{
+  /* font-size: 1rem; */
+  color: #333333;
+  border: 1px solid #b2b4b6;
+  background-color: #dfe4ea;
+  padding: 0;
+}
+.error {
+  background-color: #d64b4b;
+  text-align: center;
+  max-width: 50%;
+  margin: 2% 20%;
+  color: #252628;
+}
+.employee-list {
+  margin: 0 auto;
+  width: 100%;
+}
+.card-element {
+  display: block;
+}
+.emp-details {
+    float: right;
+    width: 230px;
+}
+.avatar-img {
+  width: 65px;
+  height: 110px;
+}
+.avatar {
+  float: left;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  border-bottom: solid 1px var(--primary-color);
+  opacity: 0.9;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar a:hover {
+  color: var(--primary-color);
+}
+
+.navbar .welcome span {
+  margin-right: 0.6rem;
+}
+
+.company-title {
+  display: block;
+  color: #fff;
+  padding: 2px 0;
+  margin: 0;
+  font-weight: 700;
+}
+.company-moto {
+  display: block;
+  color: #fff;
+  font-style: italic;
+}
+.bg-dark,
+.badge-dark,
+.alert-dark {
+  background: #3377bd;
+    /* color: #171111; */
+  height: 40px;
+}
+.container {
+  padding:6%;
+}
+.company-details {
+  width: 96%;
+}
+.company-est {
+  float: right;
+  color: #fff;
+}
